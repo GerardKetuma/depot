@@ -14,7 +14,6 @@
  *= require_self
  */
 
-/* START_HIGHLIGHT */
 #banner {
   background: #9c9;
   padding: 10px;
@@ -41,17 +40,37 @@
   background: #141;
 
   #main {
-    margin-left: 17em;
-    padding: 1em;
+    float: left;
+    width: 73%;
+    padding: 0 1%;
     background: white;
   }
 
   #side {
     float: left;
-    padding: 1em 2em;
-    width: 13em;
+    width: 23%;
+    padding: 0 1%;
     background: #141;
-    
+
+    form, div {
+      display: inline;
+    }
+
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: smaller;
+      color:     white;
+
+      table {
+        border-top:    1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
+      }
+    }
+
     ul {
       padding: 0;
       li {
@@ -64,4 +83,3 @@
     }
   }
 }
-/* END_HIGHLIGHT */
